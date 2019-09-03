@@ -11,7 +11,7 @@
 **Description:** 
 
 > _문제 지문(캡쳐 화면도 무방)_
-> ![img](resource)
+> ![img](resource/prob.png)
 > _별다른 지문이 없으면 (None)이라고 표기_
 
 ## Point
