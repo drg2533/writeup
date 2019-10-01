@@ -29,7 +29,7 @@ regexr.com에서 정규표현식을 넣으면 나름 해석도 해주고
 
 값을 입력했을 경우 일치하는지도 찾아줍니다.
 
-![img](resource/patch.png)
+![img](resource/match.png)
 
 각 부분을 간략하게 설명하자면
 
