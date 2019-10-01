@@ -19,6 +19,8 @@
 
 감사하게도 source를 제공해주니 source를 봤습니다.
 
+![img](resource/source.png)
+
 pat에 정규표현식을 넣고 preg_match로 get으로 받은 val과 비교하여
 
 정규표현식에 해당되면 solve를 보여줍니다.
@@ -26,6 +28,8 @@ pat에 정규표현식을 넣고 preg_match로 get으로 받은 val과 비교하
 regexr.com에서 정규표현식을 넣으면 나름 해석도 해주고
 
 값을 입력했을 경우 일치하는지도 찾아줍니다.
+
+![img](resource/patch.png)
 
 각 부분을 간략하게 설명하자면
 
