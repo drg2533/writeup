@@ -1,0 +1,21 @@
+pwnable
+
+signal control
+	- sigignore, signal handler controll등 가능함
+
+#include <sys/resource.h>
+struct rlimit rlim;
+rlim.rlim_cur, rlim.rlim_max
+	- 현재 process의 resource를 관리?할 수 있게 해줌
+		RLIMIT_CPU     /* 초 단위의 CPU 시간 */
+		RLIMIT_FSIZE   /* 최대 파일 크기 */
+		RLIMIT_DATA    /* 최대 데이타 크기 */
+		RLIMIT_STACK   /* 최대 스택 크기 */
+		RLIMIT_CORE    /* 최대 코어 파일 크기 */
+		RLIMIT_RSS     /* 최대 거주 집합 크기 */
+		RLIMIT_NPROC   /* 최대 프로세스 수 */
+		RLIMIT_NOFILE  /* 최대 열 수 있는 파일의 수 */
+		RLIMIT_MEMLOCK /* 최대 잠긴 기억 장소 주소 공간 */
+		RLIMIT_AS      /* 주소 공간(가상 메모리) 제한값 */
+
+
